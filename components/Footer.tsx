@@ -1,5 +1,7 @@
 import Link from 'next/link'
 import { Mail, Phone, MapPin, Instagram, Twitter, Linkedin } from 'lucide-react'
+import { FaInstagram, FaInstagramSquare, FaLinkedin } from 'react-icons/fa'
+import { FaSquareXTwitter } from 'react-icons/fa6'
 
 export default function Footer() {
   const currentYear = new Date().getFullYear()
@@ -19,13 +21,14 @@ export default function Footer() {
             </p>
             <div className="flex space-x-4">
               <button className="p-3 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <Instagram size={20} />
+               <FaInstagramSquare size={20} />
               </button>
               <button className="p-3 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <Twitter size={20} />
+                            
+                              <FaSquareXTwitter size={20} />
               </button>
               <button className="p-3 bg-gray-800 hover:bg-gray-700 rounded-full transition-colors duration-200">
-                <Linkedin size={20} />
+                <FaLinkedin size={20} />
               </button>
             </div>
           </div>
