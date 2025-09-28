@@ -31,7 +31,7 @@ export default function Contact() {
                 <Mail className="w-6 h-6 text-indigo-600 mt-1 mr-4" />
                 <div>
                   <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Email</h3>
-                  <p className="text-gray-600 dark:text-gray-300">hello@nethdigitals.com</p>
+                  <p className="text-gray-600 dark:text-gray-300">diala.kenneth98@gmail.com</p>
                 </div>
               </div>
               
