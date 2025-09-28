@@ -10,7 +10,7 @@ const navigation = [
   { name: 'About', href: '/about' },
   { name: 'Portfolio', href: '/portfolio' },
   { name: 'Contact', href: '/contact' },
-  { name: 'Blog', href: '/blog' },
+  { name: 'Testimonies', href: '/testimonies' },
 ]
 
 export default function Header() {
@@ -43,7 +43,7 @@ export default function Header() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex-shrink-0">
             <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-              Neth Digitals
+              KenvoraX Studios
             </h1>
           </Link>
           

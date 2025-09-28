@@ -5,7 +5,7 @@ import { projects } from '@/data/projects'
 
 export const metadata: Metadata = {
   title: 'Home - Professional Graphic Design Services',
-  description: 'Welcome to Neth Digitals. Professional graphic designer specializing in Adobe Creative Suite, brand identity, and creative solutions.',
+  description: 'Welcome to KenvoraX Studios. Professional graphic designer specializing in Adobe Photoshop, brand identity, and creative solutions.',
 }
 
 export default function Home() {
