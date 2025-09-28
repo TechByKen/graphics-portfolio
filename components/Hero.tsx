@@ -1,0 +1,70 @@
+import Image from 'next/image'
+import { ArrowRight, Play } from 'lucide-react'
+
+export default function Hero() {
+  return (
+    <section className="relative min-h-screen flex items-center bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 dark:from-slate-900 dark:via-indigo-900 dark:to-purple-900 overflow-hidden">
+      {/* Background Elements */}
+      <div className="absolute inset-0 bg-black/20"></div>
+      <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>
+      
+      <div className="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pt-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+          <div className="text-white">
+            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
+              <span className="w-2 h-2 bg-green-400 rounded-full mr-2"></span>
+              <span className="text-sm font-medium">Available for new projects</span>
+            </div>
+            
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
+              Creative
+              <br />
+              <span className="text-yellow-400">Design</span>
+              <br />
+              Solutions
+            </h1>
+            
+            <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-lg">
+              Professional graphic designer specializing in Adobe Creative Suite, 
+              brand identity, and modern design solutions that make your business stand out.
+            </p>
+            
+            <div className="flex flex-col sm:flex-row gap-4">
+              <button className="group px-8 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center">
+                View Portfolio
+                <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
+              </button>
+              <button className="px-8 py-4 border-2 border-white/50 hover:border-white text-white hover:bg-white/10 font-semibold rounded-xl transition-all duration-300 flex items-center justify-center">
+                <Play className="mr-2" size={20} />
+                Watch Reel
+              </button>
+            </div>
+          </div>
+          
+          <div className="flex justify-center lg:justify-end">
+            <div className="relative">
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl relative">
+                <Image
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face"
+                  alt="Professional graphic designer at work"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 320px, 384px"
+                  priority
+                />
+              </div>
+              
+              {/* Floating Elements */}
+              <div className="absolute -top-8 -right-8 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-bounce-slow">
+                <span className="text-2xl">🎨</span>
+              </div>
+              <div className="absolute -bottom-8 -left-8 w-20 h-20 bg-indigo-600 rounded-full flex items-center justify-center shadow-lg">
+                <span className="text-xl">✨</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  )
+}
