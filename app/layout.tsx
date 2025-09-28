@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ['latin'] })
 export const metadata: Metadata = {
   metadataBase: new URL('https://kenvoraXStudios.com'),
   title: {
-    default: 'Neth Digitals - Professional Graphic Designer',
+    default: 'KenvoraX Studios - Professional Graphic Designer',
     template: '%s | KenvoraX Studios'
   },
   description: 'Professional graphic designer specializing in Adobe Creative Suite, Corel Draw, and modern design solutions. Creating stunning visuals for your brand.',
