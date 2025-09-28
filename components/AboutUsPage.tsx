@@ -95,14 +95,14 @@ export default function AboutPageContent() {
     },
     {
       name: 'Adobe Premiere Pro',
-      level: 85,
+      level: 80,
       icon: Video,
       category: 'Video Editing',
       experience: '4+ years'
     },
     {
       name: 'UI/UX Design',
-      level: 80,
+      level: 50,
       icon: Globe,
       category: 'Digital Design',
       experience: '3+ years'
@@ -111,25 +111,25 @@ export default function AboutPageContent() {
 
   const achievements: Achievement[] = [
     {
-      year: '2024',
-      title: 'Founded Neth Digitals',
+      year: '2025',
+      title: 'Founded KenoraX Studios',
       description: 'Established a comprehensive digital design studio specializing in modern creative solutions.',
       icon: Award
     },
     {
-      year: '2023',
+      year: '2024',
       title: 'Adobe Certified Expert',
       description: 'Achieved advanced certification in Adobe Creative Suite, validating expertise in digital design.',
       icon: Star
     },
     {
-      year: '2022',
+      year: '2023',
       title: '100+ Projects Completed',
       description: 'Successfully delivered over 100 design projects across various industries and platforms.',
       icon: CheckCircle
     },
     {
-      year: '2021',
+      year: '2022',
       title: 'Brand Identity Specialist',
       description: 'Specialized in creating comprehensive brand identities for startups and established businesses.',
       icon: Target
@@ -144,7 +144,7 @@ export default function AboutPageContent() {
     },
     {
       title: 'Client-Centric',
-      description: 'Every project is tailored to meet specific client needs and exceed their expectations.',
+      description: 'Every project is tailored to meet specific client needs and pverwhelme their expectations.',
       icon: Users
     },
     {
@@ -171,7 +171,7 @@ export default function AboutPageContent() {
       icon: Users
     },
     {
-      number: '8+',
+      number: '3+',
       label: 'Years Experience',
       icon: Clock
     },
@@ -496,10 +496,10 @@ export default function AboutPageContent() {
               {/* CTA Section */}
               <div className="mt-20 text-center">
                 <div className="bg-gradient-to-r from-indigo-600 to-purple-600 rounded-3xl p-12 text-white">
-                  <h3 className="text-3xl font-bold mb-6">Ready to Work Together?</h3>
+                  <h3 className="text-3xl font-bold mb-6">Ready to Work with Us?</h3>
                   <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
                     Let's discuss your project and see how we can bring your vision to life 
-                    with our expertise and passion for great design.
+                    with our expertise and passion for professional design.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                     <button className="px-8 py-4 bg-white text-indigo-600 font-semibold rounded-xl hover:bg-gray-100 transition-all duration-300 transform hover:scale-105 shadow-lg">
