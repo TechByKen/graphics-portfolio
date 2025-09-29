@@ -93,26 +93,14 @@ export default function AboutPageContent() {
       category: 'Digital Design',
       experience: '5+ years'
     },
-    {
-      name: 'Adobe Premiere Pro',
-      level: 80,
-      icon: Video,
-      category: 'Video Editing',
-      experience: '4+ years'
-    },
-    {
-      name: 'UI/UX Design',
-      level: 50,
-      icon: Globe,
-      category: 'Digital Design',
-      experience: '3+ years'
-    }
+  
+    
   ]
 
   const achievements: Achievement[] = [
     {
       year: '2025',
-      title: 'Founded KenoraX Studios',
+      title: 'Founded KenvoraX Studios',
       description: 'Established a comprehensive digital design studio specializing in modern creative solutions.',
       icon: Award
     },
@@ -195,18 +183,18 @@ export default function AboutPageContent() {
           <div className="max-w-4xl mx-auto text-center text-white">
             <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full mb-6">
               <User className="w-5 h-5 mr-2" />
-              <span className="text-sm font-medium">About Neth Digitals</span>
+              <span className="text-sm font-medium">About KenvoraX Studios</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Crafting Digital 
-              <span className="text-yellow-400 block">Experiences</span>
-              That Matter
+              Keeping your brand
+              <span className="text-yellow-400 block">Ahead</span>
+             with the right direction
             </h1>
             
             <p className="text-xl text-white/90 mb-8 leading-relaxed max-w-2xl mx-auto">
               We're passionate about transforming ideas into stunning visual realities. 
-              With years of expertise and a keen eye for detail, we bring your brand's vision to life.
+              With years of expertise and a keen eye for design detail, we bring your brand's vision to life.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -283,11 +271,11 @@ export default function AboutPageContent() {
                 <div>
                   <h2 className="text-4xl font-bold text-gray-900 dark:text-white mb-6">
                     The Story Behind 
-                    <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"> Neth Digitals</span>
+                    <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent"> KenvoraX Studios</span>
                   </h2>
                   <div className="space-y-6 text-gray-600 dark:text-gray-300 leading-relaxed">
                     <p>
-                      Neth Digitals was born from a passion for creating meaningful digital experiences. 
+                      KenvoraX Studios was born from a passion for creating meaningful visually appealing designs. 
                       What started as a freelance journey has evolved into a comprehensive design studio 
                       that serves clients worldwide.
                     </p>
@@ -297,7 +285,7 @@ export default function AboutPageContent() {
                       continues to drive every project we undertake.
                     </p>
                     <p>
-                      Today, we specialize in brand identity, digital design, video production, and 
+                      Today, we specialize in brand identity, digital design, and 
                       comprehensive creative solutions that help businesses stand out in the digital landscape.
                     </p>
                   </div>

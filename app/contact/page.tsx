@@ -38,7 +38,7 @@ export default function Contact() {
               <div className="flex items-start">
                 <Phone className="w-6 h-6 text-indigo-600 mt-1 mr-4" />
                 <div>
-                  <h3 className="font-semibold text-gray-900 dark:text-white mb-1">Phone</h3>
+                  <h3 className="font-semibold text-gray-900 dark:text-white mb-1">WhatsApp</h3>
                   <p className="text-gray-600 dark:text-gray-300">+234 (0) 816 688 5035</p>
                 </div>
               </div>
