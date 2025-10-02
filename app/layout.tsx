@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     },
   },
   icons: {
-    icon: '/logo-512x512.png',
+    icon: '/logo.png',
     shortcut: '/logo-512x512.png',
   },
   manifest: '/site.webmanifest',

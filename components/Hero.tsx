@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { ArrowRight, Play } from 'lucide-react'
+import { ArrowRight} from 'lucide-react'
 import Link from 'next/link'
 
 export default function Hero() {
@@ -42,9 +42,9 @@ export default function Hero() {
           
           <div className="flex justify-center lg:justify-end">
             <div className="relative">
-              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl relative">
+              <div className="w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl mb-2 nt-2 relative">
                 <Image
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop&crop=face"
+                  src="/myphoto/myPhoto2.png"
                   alt="Professional graphic designer at work"
                   fill
                   className="object-cover"
@@ -53,13 +53,9 @@ export default function Hero() {
                 />
               </div>
               
-              {/* Floating Elements */}
-              <div className="absolute -top-8 -right-8 w-24 h-24 bg-yellow-400 rounded-full flex items-center justify-center shadow-lg animate-bounce-slow">
-                <span className="text-2xl">🎨</span>
-              </div>
-              <div className="absolute -bottom-8 -left-8 w-20 h-20 bg-indigo-600 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-xl">✨</span>
-              </div>
+             
+              
+              
             </div>
           </div>
         </div>
