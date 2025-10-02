@@ -119,4 +119,4 @@ Contributions welcome! Please read the contributing guidelines first.
 
 ## 📞 Support
 
-For support, email hello@nethdigitals.com or create an issue.
+For support, email diala.kenneth98@gmail.com or create an issue.
