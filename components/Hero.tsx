@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { ArrowRight, Play } from 'lucide-react'
+import Link from 'next/link'
 
 export default function Hero() {
   return (
@@ -17,9 +18,7 @@ export default function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold leading-tight mb-6">
-              Creative
-              <br />
-              <span className="text-yellow-400">Design</span>
+              Professional Design
               <br />
               Solutions
             </h1>
@@ -30,14 +29,14 @@ export default function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
-              <button className="group px-8 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center">
+              <Link href='/portfolio' className="group px-8 py-4 bg-yellow-400 hover:bg-yellow-300 text-black font-semibold rounded-xl transition-all duration-300 transform hover:scale-105 shadow-lg flex items-center justify-center">
                 View Portfolio
                 <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform duration-300" size={20} />
-              </button>
-              <button className="px-8 py-4 border-2 border-white/50 hover:border-white text-white hover:bg-white/10 font-semibold rounded-xl transition-all duration-300 flex items-center justify-center">
-                <Play className="mr-2" size={20} />
-                Watch Reel
-              </button>
+              </Link>
+              <Link href='/contact' className="px-8 py-4 border-2 border-white/50 hover:border-white text-white hover:bg-white/10 font-semibold rounded-xl transition-all duration-300 flex items-center justify-center">
+                
+                Get Started
+              </Link>
             </div>
           </div>
           
